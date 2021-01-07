@@ -1,0 +1,36 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "live-server src",
+    "lint": "eslint .",
+    "build": "babel src -d dist"
+  },
+  "git repository": "https://github.com/ZenkiOo/ajs-npm-package",
+  "keywords": [
+    "game"
+  ],
+  "author": "ZenkiOo",
+  "license": "ISC",
+  "browserslist": [
+    "last 1 version",
+    ">1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "eslint": "^7.17.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "core-js": "^3.8.1"
+  }
+}
